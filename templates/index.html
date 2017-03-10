@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>画像処理の前処理アプリs</title>
+  </head>
+  <body>
+    <h1>画像処理の前処理アプリ</h1>
+
+    <p>ファイル名：{{ filename }}</p>
+
+    <!-- ラベル付のフォーム部分 -->
+    <form method=post>
+      <p>
+        ラベル：{{form.label}}
+        <input type=submit value=Register>
+      </p>
+    </form>
+
+    <!-- 画像の表示 -->
+    <p><img src="{{ filename }}"></p>
+
+  </body>
+</html>
